@@ -14,9 +14,9 @@ def pending(request):                                return render(request, 'tod
 def delete_all(request):                             return render(request, 'todo/index.html')
 
 
-def update(request):                                 return render(request, 'todo/index.html')
+def update(request, id):                                 return render(request, 'todo/index.html')
 
 
 def create(request):                                 return render(request, 'todo/index.html')
 
-def delete(request):                                 return render(request, 'todo/index.html')
+def delete(request, id):                                 return render(request, 'todo/index.html')
